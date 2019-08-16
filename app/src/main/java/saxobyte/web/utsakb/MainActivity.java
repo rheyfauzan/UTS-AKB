@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 //setelah loading maka akan langsung berpindah ke home activity
 
-                Intent home=new Intent(MainActivity.this, activity_home.class);
+                Intent home=new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(home);
                 finish();
             }
